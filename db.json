@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "id": 1,
+      "title": "RALPH LAUREN T",
+      "style": "Round-neck",
+      "colour": "Black",
+      "img": "./src/images/img1.jpg",
+      "qty": 1,
+      "price": 6000
+    },
+    {
       "id": 2,
       "title": "US POLO T",
       "style": "Round-neck",

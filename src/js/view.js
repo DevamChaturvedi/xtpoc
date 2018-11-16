@@ -1,4 +1,5 @@
 import {putqty} from './service'
+import {display} from './service'
 let x=0;
 let cost=0;
 export default(items) => {
@@ -56,7 +57,9 @@ export default(items) => {
                             let deleteUrl = `http://localhost:3000/items/${items.id}`;
     						
     						fetch(deleteUrl, removeData)
-    						.then(  
+    						.then(() => {
+							display();
+							}  
     							
     						);
     						}
