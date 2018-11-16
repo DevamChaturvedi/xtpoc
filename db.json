@@ -6,7 +6,7 @@
       "style": "Round-neck",
       "colour": "Black",
       "img": "./src/images/img1.jpg",
-      "qty": 1,
+      "qty": "2",
       "price": 6000
     },
     {

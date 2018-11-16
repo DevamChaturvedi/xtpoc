@@ -37,6 +37,9 @@ h3 {
 }
 table.shoping-cart-table {
   margin-bottom: 0;
+  border-bottom: solid;
+  border-color: #e7eaec; 
+  border-width: 2px;
 }
 table.shoping-cart-table tr td {
   border: none;
@@ -50,6 +53,7 @@ table.shoping-cart-table tr td:last-child {
   width: 80px;
 }
 .ibox {
+  margin-top: 20px;
   clear: both;
   margin-bottom: 25px;
   margin-top: 0;
@@ -99,4 +103,7 @@ table.shoping-cart-table tr td:last-child {
 }
 .h2-responsive {
   margin-top: 120px;
+}
+.container {
+  margin-bottom: 10px; 
 }

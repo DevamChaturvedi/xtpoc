@@ -9,7 +9,7 @@ export default(items) => {
 	let html = `<tr style="border-bottom: solid; border-color: #e7eaec; border-width:1px;">
                                 <td width="90">
                                     <div>
-                                        <img src="${items.img}" height="100" width="100">
+                                        <img src="${items.img}" height="100" width="100" alt="abc">
                                     </div>
                                 </td>
                                 <td class="desc">
@@ -36,7 +36,7 @@ export default(items) => {
 
                                 
                                 <td width="65">
-                                    <input type="text" class="form-control" placeholder="${items.qty}">
+                                    <input type="text" class="form-control" placeholder="${items.qty}" arial-label="1">
                                 </td>
                                 <td>
                                     <h4>
@@ -69,10 +69,10 @@ export default(items) => {
 mod1.innerHTML = "";
 let htm=` <div class="row">
           <div class="col-lg-5">
-            Carousel Wrapper
+            
             <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
               
-              <div class="carousel-inner" role="listbox">
+              <div class="carousel-inner" >
                 <div class="carousel-item active">
                   <img class="d-block w-100" src="${items.img}"
                     alt="First slide">
@@ -80,11 +80,11 @@ let htm=` <div class="row">
                
               </div>
               
-              <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carousel-thumb"  data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carousel-thumb"  data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
